@@ -6,5 +6,6 @@ app.use(express.json());
 app.use(express.static(folder));
 
 app.listen(5000, function(){
+  
   console.log("Servidor arriba en 5000");
 });
